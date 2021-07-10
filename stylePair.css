@@ -1,0 +1,140 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    /* width: 100px; */
+    border-radius: 100px;
+    height: 120px;
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fb92c5;
+}
+a:hover{
+    color: #ab8a84;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    color: #fcfbf4;
+    background-color: #fcb8b6;
+    font-size: 14px;
+    border-radius: 100%;
+    border-color: #fcfbf4;
+}
+
+.Main{
+    height: 470px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span{
+    line-height: 60px;
+}
+
+.backgroundTitle{
+    height: 350px;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.fotoPerfil{
+    height: 350px;
+    border-radius: 100%;
+}
+
+section{
+    height: 600px;
+    border: #fef9f5 20px solid;
+    padding: 20px;
+    background-color: #e9bcb9;
+}
+section:hover{
+    background-color: #fcb8b6;
+}
+
+.AboutMe{
+    height: 200px;
+    border-radius: 50%;
+}
+
+#AboutMe{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+}
+.Experience{
+    height: 200px;
+    border-radius: 50%;
+}
+#Experience{
+    height: auto;
+    font-size: 18px;
+    font-style: italic;
+    color: #ab8a84;
+}
+.Education{
+    height: 200px;
+    border-radius: 50%;
+}
+#Education{
+    font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+}
+.Skills{
+    height: 200px;
+    border-radius: 50%;
+}
+#Skills{
+    font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+}
+.Languagues{
+    height: 200px;
+    border-radius: 50%;
+}
+#Languagues{
+    font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+}
+.Courses{
+    height: 200px;
+    border-radius: 50%;
+}
+#Courses{
+    font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
