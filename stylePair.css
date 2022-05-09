@@ -1,37 +1,36 @@
+body{
+    background-color: rgb(230, 230, 230);
+    height: auto;
+    width: auto;
+}
 header{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .Logo{
-    /* width: 100px; */
     border-radius: 100px;
     height: 120px;
 }
-
 nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
-
 ul{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     list-style: none
 }
-
 a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     color: #fb92c5;
 }
 a:hover{
     color: #ab8a84;
 }
-
 button{
     height: 50px;
     width: 100px;
@@ -41,85 +40,160 @@ button{
     border-radius: 100%;
     border-color: #fcfbf4;
 }
-
 .Main{
     height: 470px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border: 0px;
 }
-
 span{
     line-height: 60px;
 }
-
 .backgroundTitle{
     height: 350px;
     align-items: center;
     border-radius: 100%;
 }
-
 .fotoPerfil{
     height: 350px;
     border-radius: 100%;
 }
-
 section{
     height: 600px;
-    border: #fef9f5 20px solid;
-    padding: 20px;
+    margin: 15px;
+    padding: 5px;
     background-color: #e9bcb9;
 }
 section:hover{
     background-color: #fcb8b6;
 }
-
-.AboutMe{
-    height: 200px;
-    border-radius: 50%;
+p{
+    margin: 0%;
+    padding: 2px;
 }
-
+h2{
+    margin: 0%;
+    padding: 2px;
+}
+ul{
+    margin: 0%;
+}
 #AboutMe{
     display: flex;
     align-items:center;
-    justify-content:space-between;
+    justify-content:space-around;
     font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+}
+.AboutMe{
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#AboutMe p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#Experience{
+    font-size: 18px;
     font-style: italic;
     color: #ab8a84;
 }
 .Experience{
     height: 200px;
     border-radius: 50%;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
 }
-#Experience{
-    height: auto;
-    font-size: 18px;
+#Experience p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+}
+#Education{
+    font-size: 20px;
     font-style: italic;
-    color: #ab8a84;
+    color: #9d7f79;
 }
 .Education{
     height: 200px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#Education{
-    font-size: 22px;
-    font-style: italic;
-    color: #ab8a84;
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Skills{
-    height: 200px;
-    border-radius: 50%;
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Education p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
 }
 #Skills{
     font-size: 22px;
     font-style: italic;
     color: #ab8a84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Skills{
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Skills p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
+#Languagues{
+    font-size: 22px;
+    font-style: italic;
+    color: #ab8a84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Languagues{
     height: 200px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#Languagues{
+#Languagues ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+#Courses{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
     font-size: 22px;
     font-style: italic;
     color: #ab8a84;
@@ -127,11 +201,15 @@ section:hover{
 .Courses{
     height: 200px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#Courses{
-    font-size: 22px;
-    font-style: italic;
-    color: #ab8a84;
+#Courses ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
 }
 footer{
     display: flex;
